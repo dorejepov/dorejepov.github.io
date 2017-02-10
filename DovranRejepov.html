@@ -17,11 +17,47 @@
                 
                 font-size:20px; /* change font size */
                 background-color: aqua;
+                color; 
             }
             p {
-                background-color: black;
+                background-color: lightblue;
+                width: 10%;
+                padding: 20px;
             }
-            i{background-color: white ;
+            
+            .narrow{
+                width: 60%;
+                transition: width 1s;
+                    
+            }
+            
+            .narrow:hover  { 
+            width: 95%;
+                transition: width 1s;
+                width: auto;
+                height: auto;
+                background-color: rgba(99, 214, 70, .3);
+                border: 3px solid rgba(0, 0, 0, .3);
+            }
+            i {background-color: #ff0000 ;
+            }
+            td { border: 1px solid blue;
+            padding: 5px }
+            
+        /* #0 to f represents color */
+          /* rgb (255, 255, 0) shows the colors */  
+        /* rgba (255, 255, 0.4) makes the color half visible */
+            
+            .main { 
+                width: auto;
+                height: auto;
+                background-color: rgba(99, 214, 70, .3);
+                border: 3px solid rgba(0, 0, 0, .3);
+                
+            }
+            
+            #fatborder{
+        border: 11px #ff00ff;        
             }
         </style>
         <!--  use body and { and type background-color: the color and semicolon;} -->
@@ -29,10 +65,15 @@
 
 
     <body>
-        <!-- website goes here -->
-        <p>
+        
+        <!--website goes here -->
+        <p class="narrow">
+            
         <a href="index.html"> click here to go to index.html</a>
-            <a href=""
+            <a href="http://www.twitter.com"> Twitter!</a>
+        </p>
+            <p class="main">
+        Lorem issum
         </p>
         
         <hr>
@@ -43,7 +84,7 @@
         <!-- <u> for underline -->
         <!-- <b> for bld -->
         
-        <table border=80>
+        <table id=fatborder>
             <!-- <table border#> for background  and hashtag for size-->
         <tr>
             <td>A1</td>
