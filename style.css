@@ -1,0 +1,64 @@
+
+            body{
+                font-family; "comic sans ms";
+                background-image:
+                    URL("http://www.varlamov.me/2016/turkmeninstan_mertv/00s.jpg");
+                background-size: cover; /* background photo cover all page*/
+            }
+            
+            a:hover 
+            
+            table {
+                border: 2px dotted green; /* add border*/
+                
+                font-size:20px; /* change font size */
+                background-color: aqua;
+                color; 
+            }
+            p {
+                background-color: lightblue;
+                width: 10%;
+                padding: 20px;
+            }
+            
+            .narrow{
+                background-color: lightblue;
+                width: 10%;
+                padding: 20px;
+                    
+            }
+            
+            .narrow:hover  { 
+            width: 95%;
+                transition: width 1s;
+                width: auto;
+                height: auto;
+                background-color: rgba(99, 214, 70, .3);
+                border: 3px solid rgba(0, 0, 0, .3);
+            }
+            i {background-color: #ff0000 ;
+            }
+            td { border: 1px solid blue;
+            padding: 5px }
+            
+        /* #0 to f represents color */
+          /* rgb (255, 255, 0) shows the colors */  
+        /* rgba (255, 255, 0.4) makes the color half visible */
+.main{
+    background-color: lightblue;
+                width: 10%;
+                padding: 20px;} 
+
+            .main { 
+                width: 95%;
+                transition: width 1s;
+                width: auto;
+                height: auto;
+                background-color: rgba(99, 214, 70, .3);
+                border: 3px solid rgba(0, 0, 0, .3);
+                
+            }
+            
+            #fatborder{
+        border: 11px #ff00ff;        
+            }

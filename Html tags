@@ -1,0 +1,5 @@
+<html>
+<u><u/> underline
+/* #0 to f represents color */
+          /* rgb (255, 255, 0) shows the colors */  
+        /* rgba (255, 255, 0.4) makes the color half visible
