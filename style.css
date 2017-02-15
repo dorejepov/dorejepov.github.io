@@ -22,18 +22,17 @@
             }
             
             .narrow{
-                background-color: lightblue;
+                background-color: white;
                 width: 10%;
                 padding: 20px;
-                    
+                transition: width 5s;
+                
             }
             
             .narrow:hover  { 
             width: 95%;
-                transition: width 1s;
-                width: auto;
                 height: auto;
-                background-color: rgba(99, 214, 70, .3);
+                background-color: rgba(244, 245, 247, .3);
                 border: 3px solid rgba(0, 0, 0, .3);
             }
             i {background-color: #ff0000 ;
