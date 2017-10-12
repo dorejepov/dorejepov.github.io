@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+        Assignment due 10/14/2017
+        </title>
+    </head>
+    <body>
+    <a>
+        Please inspect and check console
+    </a>
+    </body>
+    <script>
+        console.log("Var Ted = 4;")
+        console.log("Ted + 4");
+        console.log("Ted / 2");
+        console.log("Ted * 2");
+        console.log("Ted - 2");
+        var Ted = 4;
+        
+        console.log(Ted + 4);
+        console.log(Ted / 2);
+        console.log(Ted * 2);
+        console.log(Ted - 2);
+    </script>
+</html>
