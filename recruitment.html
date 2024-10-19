@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Real Estate Club</title>
+    <link rel="stylesheet" href="dorejepov.github.io/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Join the Real Estate Club</h1>
+        <p>Discover the advantages of being part of our community and start shaping your future in real estate today!</p>
+    </header>
+    <main>
+        <section class="departments">
+            <button onclick="location.href='dorejepov.github.io/recruitment.html'">Recruitment</button>
+            <button onclick="location.href='dorejepov.github.io/human-resources.html'">Human Resources</button>
+            <button onclick="location.href='dorejepov.github.io/marketing.html'">Marketing</button>
+            <button onclick="location.href='dorejepov.github.io/finance.html'">Finance</button>
+            <button onclick="location.href='dorejepov.github.io/operations.html'">Operations</button>
+            <button onclick="location.href='dorejepov.github.io/external-relations.html'">External Relations</button>
+            <button onclick="location.href='dorejepov.github.io/research-development.html'">Research & Development</button>
+            <button onclick="location.href='dorejepov.github.io/entrepreneurship.html'">Entrepreneurship</button>
+        </section>
+        <section class="benefits">
+            <h2>Why Join Us?</h2>
+            <p>Joining the UC Merced Real Estate Club offers you unparalleled opportunities to:</p>
+            <ul>
+                <li>Network with industry professionals and gain insights into the real estate market.</li>
+                <li>Participate in exclusive workshops, guest lectures, and hands-on projects.</li>
+                <li>Enhance your resume and build a professional portfolio through real-world experiences.</li>
+                <li>Access internship and job opportunities shared only within our network.</li>
+            </ul>
+        </section>
+        <section class="signup-form">
+            <h2>Sign Up Today!</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="major">Major:</label>
+                <input type="text" id="major" name="major" required><br>
+                
+                <label for="year">Year in School:</label>
+                <select id="year" name="year">
+                    <option value="freshman">Freshman</option>
+                    <option value="sophomore">Sophomore</option>
+                    <option value="junior">Junior</option>
+                    <option value="senior">Senior</option>
+                    <option value="graduate">Graduate</option>
+                </select><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
