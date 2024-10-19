@@ -1,63 +1,345 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
 
-            body{
-                font-family; "comic sans ms";
-                background-image:
-                    URL("http://www.varlamov.me/2016/turkmeninstan_mertv/00s.jpg");
-                background-size: cover; /* background photo cover all page*/
-            }
-            
-            a:hover 
-            
-            table {
-                border: 2px dotted green; /* add border*/
-                
-                font-size:20px; /* change font size */
-                background-color: aqua;
-                color; 
-            }
-            p {
-                background-color: lightblue;
-                width: 10%;
-                padding: 20px;
-            }
-            
-            .narrow{
-                background-color: white;
-                width: 10%;
-                padding: 20px;
-                transition: width 5s;
-                
-            }
-            
-            .narrow:hover  { 
-            width: 95%;
-                height: auto;
-                background-color: rgba(244, 245, 247, .3);
-                border: 3px solid rgba(0, 0, 0, .3);
-            }
-            i {background-color: #ff0000 ;
-            }
-            td { border: 1px solid blue;
-            padding: 5px }
-            
-        /* #0 to f represents color */
-          /* rgb (255, 255, 0) shows the colors */  
-        /* rgba (255, 255, 0.4) makes the color half visible */
-.main{
-    background-color: lightblue;
-                width: 10%;
-                padding: 20px;} 
+header {
+    background: #005689;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
-            .main { 
-                width: 95%;
-                transition: width 1s;
-                width: auto;
-                height: auto;
-                background-color: rgba(99, 214, 70, .3);
-                border: 3px solid rgba(0, 0, 0, .3);
-                
-            }
-            
-            #fatborder{
-        border: 11px #ff00ff;        
-            }
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+}
+.schedule-page h2 {
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.schedule-page ul {
+    background-color: #ffffff;
+    padding: 15px;
+    list-style-type: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.schedule-page li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-page li:last-child {
+    border-bottom: none;
+}
+
+.schedule-page p {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Adds a subtle box shadow to all sections */
+.schedule-page h2, .schedule-page ul, .schedule-page p {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.projects, .initiatives {
+    padding: 10px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.projects ul, .initiatives ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li, .initiatives li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.projects li:last-child, .initiatives li:last-child {
+    border-bottom: none;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+#entrepreneurship-fundraiser .info-box {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#entrepreneurship-fundraiser h2 {
+    color: #0056b3;
+}
+
+#entrepreneurship-fundraiser p {
+    color: #333;
+}
+
+#entrepreneurship-fundraiser header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#entrepreneurship-fundraiser main {
+    padding: 20px;
+}
+
+
+.marketing-page header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.marketing-page main {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links button {
+    background-color: #c59c2b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-links button:hover {
+    background-color: #00b354;
+}
+
+.media-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.media-section .qr-code, .media-section .flyer {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.media-section img {
+    width: 100%; /* Adjust based on actual layout needs */
+    max-width: 300px; /* Set a max-width for images to avoid them being too large */
+    margin-top: 10px;
+}
+
+
+.email-template {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.highlight {
+    background-color: #ffff99;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #0056b3;
+}
+.investor-resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.investor-resources li {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.investor-resources a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.investor-resources a:hover {
+    text-decoration: underline;
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefits li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.signup-form form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.signup-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.signup-form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.role-assignment, .conflict-resolution {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.role-assignment, .conflict-resolution h2 {
+    color: #0056b3;
+}
+
+.role-assignment, .conflict-resolution ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+.role-assignment, .conflict-resolution li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
