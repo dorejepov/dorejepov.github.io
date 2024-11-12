@@ -4,46 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketing Department</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://dorejepov.github.io/styles.css">
+    <style>
+        /* Slider styling */
+        .slider-container {
+            display: flex;
+            overflow: hidden;
+            width: 100vw;
+            margin: auto;
+            position: relative;
+        }
+
+        .slider {
+            display: flex;
+            gap: 350px; /* Adjust gap between flyers */
+            animation: slide 17s linear infinite;
+        }
+
+        .slider img {
+            width: 300px; /* Width of each flyer */
+            height: auto;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(100vw); }
+            100% { transform: translateX(-150vw); }
+        }
+
+        .qr-code {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header style="display: flex; align-items: center; justify-content: center;">
         <a href="https://dorejepov.github.io/index.html" style="margin-right: auto; padding-right: 20px;">
-            <img src="1.png" alt="UC Merced Real Estate Club Logo" style="width: 150px;">
+            <img src="https://dorejepov.github.io/1.png" alt="UC Merced Real Estate Club Logo" style="width: 150px;">
         </a>
         <h1 style="text-align: center; padding-left: 35%;">Marketing Department</h1>
         <div style="flex: 1;"></div> <!-- Placeholder for balance -->
     </header>
+
     <section class="departments" style="text-align: center; margin-top: 10px;">
-        <button onclick="location.href='https://dorejepov.github.io/recruitment'">Recruitment</button>
-            <button onclick="location.href='https://dorejepov.github.io/human-resources'">Human Resources</button>
-            <button onclick="location.href='https://dorejepov.github.io/marketing'">Marketing</button>
-            <button onclick="location.href='https://dorejepov.github.io/finance'">Finance</button>
-            <button onclick="location.href='https://dorejepov.github.io/operations'">Operations</button>
-            <button onclick="location.href='https://dorejepov.github.io/external-relations'">External Relations</button>
-            <button onclick="location.href='https://dorejepov.github.io/research-development'">Research & Development</button>
-            <button onclick="location.href='https://dorejepov.github.io/entrepreneurship'">Entrepreneurship</button>
+        <button onclick="location.href='https://dorejepov.github.io/recruitment.html'">Recruitment</button>
+        <button onclick="location.href='https://dorejepov.github.io/human-resources.html'">Human Resources</button>
+        <button onclick="location.href='https://dorejepov.github.io/marketing.html'">Marketing</button>
+        <button onclick="location.href='https://dorejepov.github.io/finance.html'">Online Store</button>
+        <button onclick="location.href='https://dorejepov.github.io/operations.html'">Operations</button>
+        <button onclick="location.href='https://dorejepov.github.io/external-relations.html'">External Relations</button>
+        <button onclick="location.href='https://dorejepov.github.io/research-development.html'">Research & Development</button>
+        <button onclick="location.href='https://dorejepov.github.io/entrepreneurship.html'">Fundraiser</button>
     </section>
+
     <main>
-        
         <h1>Connect with us on our social platforms and check out our latest promotional materials!</h1>
-        <div class="social-links">
+        <div class="social-links" style="text-align: center; margin-bottom: 20px;">
             <button onclick="window.location.href='https://www.instagram.com/ucm_businessociety/';">Instagram</button>
             <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">YouTube</button>
             <button onclick="window.location.href='https://www.linkedin.com/company/business-society-at-uc-merced/';">LinkedIn</button>
         </div>
-        <div class="media-section">
-            <div class="qr-code">
-                <h2>Scan Our QR Code</h2>
-                <!-- Placeholder for QR Code -->
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Rickrolling_QR_code.png" alt="QR Code">
-            </div>
-            <div class="flyer">
-                <h2>Event Flyer</h2>
-                <!-- Placeholder for Flyer Image -->
-                <img src="path_to_flyer_image.jpg" alt="Flyer Image">
+
+        <!-- Slider for Flyers -->
+        <div class="slider-container">
+            <div class="slider">
+                <img src="https://dorejepov.github.io/flyer1.png" alt="Flyer 1">
+                <img src="https://dorejepov.github.io/flyer2.png" alt="Flyer 2">
+                <img src="https://dorejepov.github.io/flyer3.png" alt="Flyer 3">
+                <img src="https://dorejepov.github.io/flyer4.png" alt="Flyer 4">
+                <img src="https://dorejepov.github.io/flyer5.png" alt="Flyer 5">
             </div>
         </div>
+
+        <!-- QR Code Section -->
+        <div class="qr-code">
+            <h2>Scan Our QR Code</h2>
+            <img src="https://dorejepov.github.io/qr-code.png" alt="QR Code" style="width: 150px;">
+        </div>
     </main>
+
+    <!-- Footer Section -->
+    <footer style="background-color: #333; color: white; display: flex; justify-content: space-around; padding: 20px;">
+        <div style="text-align: left;">
+            <p>Contact Us</p>
+            <p>+1 (415) 243-6172</p>
+            <p>realestate@ucmerced.com</p>
+            <p>5200 Lake Rd, Merced, CA 95343</p>
+            <button onclick="location.href='https://dorejepov.github.io/about-us.html'">MEET THE TEAM</button>
+        </div>
+        <div style="text-align: right;">
+            <img src="https://dorejepov.github.io/qr-code.png" alt="QR code" style="width: 150px;">
+        </div>
+    </footer>
 </body>
 </html>
