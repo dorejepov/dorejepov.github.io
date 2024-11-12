@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC Merced Real Estate Club - Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .store-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 1200px;
+        }
+        .section {
+            margin-top: 30px;
+            width: 100%;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .product {
+            position: relative;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h3 {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .product p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .product .price {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #1e90ff;
+            margin-top: 5px;
+        }
+        .product .sold-out {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        .product .buy-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .product .buy-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header style="display: flex; align-items: center; justify-content: center;">
+        <a href="index.html" style="margin-right: auto; padding-right: 20px;">
+            <img src="1.png" alt="UC Merced Real Estate Club Logo" style="width: 150px;">
+        </a>
+        <h1 style="text-align: center; padding-left: 35%;">Online Store</h1>
+        <div style="flex: 1;"></div>
+    </header>
+
+    <section class="departments" style="text-align: center; margin-top: 10px;">
+        <button onclick="location.href='recruitment.html'">Recruitment</button>
+        <button onclick="location.href='human-resources.html'">Human Resources</button>
+        <button onclick="location.href='marketing.html'">Marketing</button>
+        <button onclick="location.href='finance.html'">Online Store</button>
+        <button onclick="location.href='operations.html'">Operations</button>
+        <button onclick="location.href='external-relations.html'">External Relations</button>
+        <button onclick="location.href='research-development.html'">Research & Development</button>
+        <button onclick="location.href='entrepreneurship.html'">Fundraiser</button>
+    </section>
+
+    <main class="store-container">
+        <!-- Clothing Section -->
+        <section class="section" id="clothing">
+            <h2>Clothing</h2>
+            <div class="product-list">
+                <div class="product">
+                    <div class="sold-out">Sold Out</div>
+                    <img src="hoodie1.jpg" alt="Hoodie">
+                    <h3>UC Merced Hoodie</h3>
+                    <p>Warm and comfortable hoodie for cool days.</p>
+                    <p class="price">$40.00</p>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product">
+                    <div class="sold-out">Sold Out</div>
+                    <img src="hoodie2.jpg" alt="Hoodie">
+                    <h3>UC Merced Hoodie</h3>
+                    <p>Warm and comfortable hoodie for cool days.</p>
+                    <p class="price">$40.00</p>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product">
+                    <div class="sold-out">Sold Out</div>
+                    <img src="tshirt.jpg" alt="T-shirt">
+                    <h3>UC Merced T-Shirt</h3>
+                    <p>Soft cotton T-shirt with club logo.</p>
+                    <p class="price">$20.00</p>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product">
+                    <div class="sold-out">Sold Out</div>
+                    <img src="polo.jpg" alt="Hoodie">
+                    <h3>UC Merced Polo Shirt</h3>
+                    <p>Soft cotton Polo shirt with club logo.</p>
+                    <p class="price">$40.00</p>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hats Section -->
+        <section class="section" id="hats">
+            <h2>Hats</h2>
+            <div class="product-list">
+                <div class="product">
+                    <div class="sold-out">Sold Out</div>
+                    <img src="cap.jpg" alt="Cap">
+                    <h3>Club Cap</h3>
+                    <p>Classic cap with adjustable strap.</p>
+                    <p class="price">$15.00</p>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product">
+                    <div class="sold-out">Sold Out</div>
+                    <img src="beanie.jpg" alt="Beanie">
+                    <h3>Club Beanie</h3>
+                    <p>Perfect for cold weather, featuring club logo.</p>
+                    <p class="price">$18.00</p>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accessories Section -->
+        <section class="section" id="accessories">
+            <h2>Accessories</h2>
+            <div class="product-list">
+                <div class="product">
+                    <div class="sold-out">Sold Out</div>
+                    <img src="umbrella.jpg" alt="Umbrella">
+                    <h3>Club Umbrella</h3>
+                    <p>Stylish umbrella to keep you dry in style.</p>
+                    <p class="price">$25.00</p>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product">
+                    <div class="sold-out">Sold Out</div>
+                    <img src="keychain.jpg" alt="Keychain">
+                    <h3>Club Keychain</h3>
+                    <p>Keep your keys together with this sturdy keychain.</p>
+                    <p class="price">$5.00</p>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <p>Contact Us</p>
+        <p>+1 (415) 243-6172 | realestate@ucmerced.com</p>
+        <p>5200 Lake Rd, Merced, CA 95343</p>
+        <button onclick="location.href='about-us.html'">MEET THE TEAM</button>
+    </footer>
+</body>
+</html>
