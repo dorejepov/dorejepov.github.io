@@ -4,43 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>External Relations - UC Merced Real Estate Club</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://dorejepov.github.io/styles.css">
+    <style>
+        /* Styling for investor showcase */
+        .investor-showcase {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .investor-card {
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: #000;
+            color: #fff; /* White text for contrast */
+        }
+        .investor-card img {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .investor-card h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #fff;
+        }
+        .investor-card p {
+            font-size: 0.9em;
+            color: #ddd; /* Light grey text for readability */
+        }
+        .investor-card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #1e90ff; /* Bright blue for links */
+            text-decoration: none;
+        }
+        .investor-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header style="display: flex; align-items: center; justify-content: center;">
         <a href="https://dorejepov.github.io/index.html" style="margin-right: auto; padding-right: 20px;">
-            <img src="1.png" alt="UC Merced Real Estate Club Logo" style="width: 150px;">
+            <img src="https://dorejepov.github.io/1.png" alt="UC Merced Real Estate Club Logo" style="width: 150px;">
         </a>
         <h1 style="text-align: center; padding-left: 35%;">External Relations Department</h1>
-        <div style="flex: 1;"></div> <!-- Placeholder for balance -->
+        <div style="flex: 1;"></div>
     </header>
+
     <section class="departments" style="text-align: center; margin-top: 10px;">
-        <button onclick="location.href='https://dorejepov.github.io/recruitment'">Recruitment</button>
-            <button onclick="location.href='https://dorejepov.github.io/human-resources'">Human Resources</button>
-            <button onclick="location.href='https://dorejepov.github.io/marketing'">Marketing</button>
-            <button onclick="location.href='https://dorejepov.github.io/finance'">Finance</button>
-            <button onclick="location.href='https://dorejepov.github.io/operations'">Operations</button>
-            <button onclick="location.href='https://dorejepov.github.io/external-relations'">External Relations</button>
-            <button onclick="location.href='https://dorejepov.github.io/research-development'">Research & Development</button>
-            <button onclick="location.href='https://dorejepov.github.io/entrepreneurship'">Entrepreneurship</button>
+        <button onclick="location.href='https://dorejepov.github.io/recruitment.html'">Recruitment</button>
+        <button onclick="location.href='https://dorejepov.github.io/human-resources.html'">Human Resources</button>
+        <button onclick="location.href='https://dorejepov.github.io/marketing.html'">Marketing</button>
+        <button onclick="location.href='https://dorejepov.github.io/finance.html'">Online Store</button>
+        <button onclick="location.href='https://dorejepov.github.io/operations.html'">Operations</button>
+        <button onclick="location.href='https://dorejepov.github.io/external-relations.html'">External Relations</button>
+        <button onclick="location.href='https://dorejepov.github.io/research-development.html'">Research & Development</button>
+        <button onclick="location.href='https://dorejepov.github.io/entrepreneurship.html'">Fundraiser</button>
     </section>
+
     <main>
-        <section class="mock-email">
-            <h2>Mock Email to Potential Investors</h2>
-            <p>Below is an example of how you might structure an email to a potential investor:</p>
-            <div class="email-template">
-                <p><strong>Subject:</strong> <span class="highlight">Opportunity to Impact Future Real Estate Leaders at UC Merced</span></p>
-                <p><strong>Greeting:</strong> <span class="highlight">Dear [Investor's Name],</span></p>
-                <p><strong>Introduction:</strong> <span class="highlight">My name is [Your Name], and I am the [Your Position] at UC Merced's Real Estate Club.</span></p>
-                <p><strong>Body:</strong> 
-                    <span class="highlight">I am reaching out to share an exciting opportunity to collaborate with our club, which is dedicated to shaping the next generation of real estate professionals. We have been making significant impacts through [Brief Description of Activities], and your support could greatly enhance these initiatives.</span>
-                </p>
-                <p><strong>Call to Action:</strong> <span class="highlight">I would love the opportunity to discuss this with you in more detail and explore potential synergies. Could we schedule a time to meet and discuss this further?</span></p>
-                <p><strong>Closing:</strong> <span class="highlight">Thank you for considering this opportunity. I look forward to your positive response.</span></p>
-                <p><strong>Signature:</strong> <span class="highlight">Best regards,<br>[Your Name]<br>[Your Position]<br>UC Merced Real Estate Club</span></p>
-            </div>
-        </section>
-        <section class="investor-resources"></section>
+        <section class="investor-resources">
             <h2>Finding Potential Investors</h2>
             <p>Finding the right investors for our club involves utilizing various platforms and networks. Here are some resources where you can start your search:</p>
             <ul>
@@ -50,6 +80,38 @@
                 <li><a href="https://www.crunchbase.com/">Crunchbase</a> - For researching and connecting with venture capitalists and private equity firms.</li>
             </ul>
         </section>
+
+        <!-- Investor Showcase Section -->
+        <section class="investor-showcase">
+            <h2>Our Investors</h2>
+            <div class="investor-card">
+                <img src="https://dorejepov.github.io/CaravanLogo.png" alt="Investor 1 Logo">
+                <h3>Caravan Logistics LLC</h3>
+                <p>Caravan Logistics LLC will haul your big cargo anywhere across the U.S. mainland.</p>
+                <a href="https://www.caravanfleet.com" target="_blank">Visit Website</a>
+            </div>
+
+            <div class="investor-card">
+                <img src="https://dorejepov.github.io/AstoLogo.png" alt="Investor 2 Logo">
+                <h3>Asto LLC</h3>
+                <p>Asto LLC is a partner of Caravan Logistics LLC which offers both trucking and dispatching services.</p>
+                <a href="https://www.astollc.com" target="_blank">Visit Website</a>
+            </div>
+
+            
+
+            <!-- Add more investor cards as needed -->
+        </section>
+        <section class="signup-form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-uC0WXGtzErtNGMmFyvlyPVFb8-YmCaQLbUnvvEszkq52_g/viewform?embedded=true" width="640" height="1222" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </section>
     </main>
+
+    <footer style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <p>Contact Us</p>
+        <p>+1 (415) 243-6172 | realestate@ucmerced.com</p>
+        <p>5200 Lake Rd, Merced, CA 95343</p>
+        <button onclick="location.href='https://dorejepov.github.io/about-us.html'">MEET THE TEAM</button>
+    </footer>
 </body>
 </html>
