@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundraiser Plan - Entrepreneurship Department</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraiser - Outdoor Movie Night</title>
+    <link rel="stylesheet" href="https://dorejepov.github.io/styles.css">
+    <style>
+        /* Box styling for sections */
+        .box {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+            text-align: center; /* Center-align content inside boxes */
+        }
+        .event-details-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+        }
+        .map-image img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        /* Reduced size for giveaway images */
+        .giveaway-gallery img {
+            width: 80px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        .giveaway-gallery {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        /* Flex container for Presale and Giveaways */
+        .presale-giveaways-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        /* Floor plan full width */
+        .floorplan img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
     <header style="display: flex; align-items: center; justify-content: center;">
@@ -12,62 +63,75 @@
             <img src="1.png" alt="UC Merced Real Estate Club Logo" style="width: 150px;">
         </a>
         <h1 style="text-align: center; padding-left: 35%;">Entrepreneurship Department</h1>
-        <div style="flex: 1;"></div> <!-- Placeholder for balance -->
+        <div style="flex: 1;"></div>
     </header>
+
     <section class="departments" style="text-align: center; margin-top: 10px;">
-        <button onclick="location.href='https://dorejepov.github.io/recruitment'">Recruitment</button>
-            <button onclick="location.href='https://dorejepov.github.io/human-resources'">Human Resources</button>
-            <button onclick="location.href='https://dorejepov.github.io/marketing'">Marketing</button>
-            <button onclick="location.href='https://dorejepov.github.io/finance'">Finance</button>
-            <button onclick="location.href='https://dorejepov.github.io/operations'">Operations</button>
-            <button onclick="location.href='https://dorejepov.github.io/external-relations'">External Relations</button>
-            <button onclick="location.href='https://dorejepov.github.io/research-development'">Research & Development</button>
-            <button onclick="location.href='https://dorejepov.github.io/entrepreneurship'">Entrepreneurship</button>
+        <button onclick="location.href='https://dorejepov.github.io/recruitment.html'">Recruitment</button>
+        <button onclick="location.href='https://dorejepov.github.io/human-resources.html'">Human Resources</button>
+        <button onclick="location.href='https://dorejepov.github.io/marketing.html'">Marketing</button>
+        <button onclick="location.href='https://dorejepov.github.io/finance.html'">Online Store</button>
+        <button onclick="location.href='https://dorejepov.github.io/operations.html'">Operations</button>
+        <button onclick="location.href='https://dorejepov.github.io/external-relations.html'">External Relations</button>
+        <button onclick="location.href='https://dorejepov.github.io/research-development.html'">Research & Development</button>
+        <button onclick="location.href='https://dorejepov.github.io/entrepreneurship.html'">Fundraiser</button>
     </section>
-    
-        <h1 style="text-align: center;">Fundraiser Plan</h1>
-    
-    <main id="entrepreneurship-fundraiser">
-        <div class="info-box" id="identity">
-            <h2>Identity</h2>
-            <p>The fundraiser will feature a "Future of Real Estate" theme with modern, sustainable designs and digital interactions to highlight innovation.</p>
+
+    <main style="padding: 20px;">
+        <h2 style="text-align: center;">Outdoor Movie Night Fundraiser</h2>
+
+        <!-- Event Details and Map Box Centered -->
+        <div class="box event-details">
+            <div class="event-details-container">
+                <div class="details-text">
+                    <p><strong>Date:</strong> October 17th</p>
+                    <p><strong>Time:</strong> 8:00 PM - 11:00 PM</p>
+                    <p><strong>Location:</strong> Wallace Dutra Amphitheater, Outdoor area in front of Little Lake</p>
+                    <p><strong>Guest Arrival:</strong> 8:00 PM</p>
+                    <p><strong>Program Ends:</strong> 11:00 PM</p>
+                    <div class="map-image">
+                        <h3>Location Map</h3>
+                        <img src="https://dorejepov.github.io/amphitheater-map.jpg" alt="Map of Wallace Dutra Amphitheater">
+                    </div>
+                </div>
+                
+            </div>
         </div>
-        <div class="info-box" id="problem">
-            <h2>Problem</h2>
-            <p>Key risks include low attendance, budget constraints, and potential conflicts with other events.</p>
+
+        <!-- Presale and Giveaways Side by Side Centered -->
+        <div class="presale-giveaways-container">
+            <!-- Presale Information Box -->
+            <div class="box presale-info">
+                <h3>Ticket Presale Information</h3>
+                <p>Tickets can be purchased in advance:</p>
+                <p><strong>Date:</strong> October 8th to 14th (excluding weekend)</p>
+                <p><strong>Time:</strong> 10:00 AM - 2:00 PM</p>
+            </div>
+
+            <!-- Free Giveaways Box -->
+            <div class="box giveaways">
+                <h3>Free Giveaways</h3>
+                <p>At our event, we’ll be giving away the following items:</p>
+                <div class="giveaway-gallery">
+                    <img src="https://dorejepov.github.io/beanie.jpg" alt="Beanie" title="Beanie">
+                    <img src="https://dorejepov.github.io/cap.jpg" alt="Cap" title="Cap">
+                    <img src="https://dorejepov.github.io/umbrella.jpg" alt="Umbrella" title="Umbrella">
+                </div>
+            </div>
         </div>
-        <div class="info-box" id="solution">
-            <h2>Our Solution</h2>
-            <p>Solutions include early and aggressive marketing, backup plans for logistics, and flexible budgeting with contingency funds.</p>
-        </div>
-        <div class="info-box" id="target-market">
-            <h2>Target Market</h2>
-            <p>The target audience includes real estate students, local professionals, faculty, and investors interested in innovative real estate developments.</p>
-        </div>
-        <div class="info-box" id="competition">
-            <h2>The Competition</h2>
-            <p>The event will differentiate itself with exclusive workshops, high-profile speakers, and student project showcases.</p>
-        </div>
-        <div class="info-box" id="revenue">
-            <h2>Revenue Streams</h2>
-            <p>Income will be generated through ticket sales, sponsorships, and a silent auction of donated items.</p>
-        </div>
-        <div class="info-box" id="marketing">
-            <h2>Marketing Activities</h2>
-            <p>Promotion will occur via social media, email newsletters, and strategic placements of posters and banners across campus.</p>
-        </div>
-        <div class="info-box" id="expenses">
-            <h2>Expenses</h2>
-            <p>Major expenses will include venue rental, speaker fees, marketing materials, and catering, divided into short-term and long-term categories.</p>
-        </div>
-        <div class="info-box" id="team">
-            <h2>Team and Key Roles</h2>
-            <p>The team will consist of roles like Project Manager, Marketing Director, Sponsorship Coordinator, and Logistics Manager, requiring significant commitment in the lead-up to the event.</p>
-        </div>
-        <div class="info-box" id="milestones">
-            <h2>Milestones</h2>
-            <p>Goals include raising $5,000, achieving a 50% profit margin, attracting 200 attendees, and engaging actively on social media.</p>
+
+        <!-- Floor Plan at Full Width -->
+        <div class="floorplan" style="margin-top: 20px;">
+            <img src="https://dorejepov.github.io/floorplan.jpg" alt="Floor plan for the event">
         </div>
     </main>
+
+    <!-- Footer Section -->
+    <footer style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <p>Contact Us</p>
+        <p>+1 (415) 243-6172 | realestate@ucmerced.com</p>
+        <p>5200 Lake Rd, Merced, CA 95343</p>
+        <button onclick="location.href='https://dorejepov.github.io/about-us.html'">MEET THE TEAM</button>
+    </footer>
 </body>
 </html>
